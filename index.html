@@ -1,0 +1,52 @@
+<style>
+
+	body,
+	html {
+		padding: 0;
+		margin: 0;
+	}
+
+	body {
+		background: #FFF;
+	}
+
+	.wrap {
+		max-width: 1440px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	img {
+		position: relative;
+		z-index: 2;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.video {
+		position: absolute;
+		width: 100%;
+		height: 0;
+		z-index: 1;
+		padding-bottom: 69.4%;
+	}
+
+	video {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		object-fit-position: center;
+		left: 0;
+		top: 0;
+	}
+
+</style>
+
+
+<div class="wrap">
+	<div class="video">
+		<video src="Drone.mp4" autoplay loop muted></video>
+	</div>
+	<img src="home.png">
+</div>
